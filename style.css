@@ -1,0 +1,189 @@
+/*base.css*/
+*{
+    font-weight:300, 400, 600;
+    padding:0;
+    
+    
+}
+
+body {
+background-color:hsl(217, 54%, 11%);
+font-family:Outfit;
+font-weight:300, 400, 600;
+font-size:18px;
+}
+
+
+h1{
+  font-size:18px;
+  color:hsl(0, 0%, 100%);
+}
+
+p{
+  color:hsl(215, 51%, 70%);
+
+}
+
+.clearfix{
+  clear:both;
+}
+
+
+/*layout*/
+
+
+.Equilibrium{
+    
+    
+    padding: 50px 50px 50px 50px;
+    border-radius: 30px;
+    border: 5px solid hsl(216, 50% 16%);
+    box-shadow:  6px 6px 20px 50px hsl(217, 50%, 10%);
+    background-color:hsl(216, 50%, 16%) ;
+    margin:155px;
+    
+  
+}
+
+
+/*module.css*/
+  
+#image img{
+    padding:30px 30px 30px 30px;
+}
+
+
+
+
+#ethereum{
+  float:left;
+}
+
+#ethereum h4{
+  color:hsl(178 100% 50%);
+  display: inline;
+}
+
+#clock{
+  float:right;
+}
+
+#clock h4{
+  display:inline;
+  color:hsl(215, 51%, 70%);
+}
+
+
+.bottom h4{
+  display:inline;
+}
+
+#creat{
+  color:hsl(215, 51%, 70%);
+}
+
+
+.jules{
+  color:hsl(0, 0%, 100%);
+
+}
+
+.bottom img{
+border-radius:50px; 
+border:3px solid hsl(0, 0%, 100%);
+margin-right:30px
+}
+
+
+.bottom-text{
+  display:inline;
+word-spacing:2px;
+}
+
+
+/*state.css*/
+
+.Equilibrium-img:hover {
+  
+  top:50%;
+  left:50%;
+  background:url(Image/icon-view.svg) center  no-repeat;
+    background-color:hsl(178, 100%, 50%);
+   background-size:100px;
+
+}
+
+.Equilibrium-img img:hover {
+  cursor:pointer;
+  overflow: hidden;
+  color:hsl(178, 100%, 50%);
+  object-fit: cover;
+transition:0.3s;
+  opacity:.3;
+
+}
+
+.Equilibrium-img:active {
+  
+  top:50%;
+  left:50%;
+  background:url(Image/icon-view.svg) center  no-repeat;
+    background-color:hsl(178, 100%, 50%);
+   background-size:100px;
+
+}
+
+.Equilibrium-img img:active {
+  cursor:pointer;
+  overflow: hidden;
+  color:hsl(178, 100%, 50%);
+  object-fit: cover;
+transition:0.3s;
+  opacity:.3;
+
+}
+
+
+.Equilibrium-text:hover {
+  color:hsl(178, 100%, 50%);
+  cursor: click;
+}
+
+.Equilibrium-text:active{
+  color:hsl(178, 100%, 50%);
+}
+
+.wyvern:hover {  color:hsl(178, 100%, 50%); cursor:click;}
+
+.wyvern:active{color:hsl(178, 100%, 50%);}
+
+
+  @media(max-width: 768px){
+  .Equilibrium
+  { 
+    float:none;
+    align-content: center;
+    padding:50px;
+    margin:25px;
+    margin-bottom:60px;
+    margin-top:60px;
+     margin-left: 0px;
+    width:90%;
+  }
+  
+  @media(max-width:1000px){
+        .attribution{
+          text-align:justified;
+          
+          
+        }
+
+  }
+  
+  @media(max-width:100%){
+    .Equilibrium-img img{
+      max-width:100%
+    }
+  }
+
+  
